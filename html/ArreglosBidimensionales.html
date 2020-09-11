@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos Bidimensionales</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/AhorroCodigo.js"></script>
+    <script src="../js/ArreglosBidimensionales.js"></script>
+</head>
+<body class="bidimensional-background" onload="Instancia('bidimensionales')">
+    <div>
+        <a href="Controlador.html">
+            <img class="atras" src="../img/atras.svg">
+        </a>
+    </div>
+    <div class="mensaje">.
+        <div class="cerrar" onclick="cerrar()">
+            <img width="25px" src="../img/cerrar.svg">
+        </div><br>
+        <div class="problema"></div>
+        <button id="ejecutar">EJECUTAR</button>
+    </div>
+    <div class="matriz"></div>
+    <div class="row">
+        <div class="Bleft">
+            <button onclick="mensaje('b1')">1</button>
+            <button onclick="mensaje('b2')">2</button>
+            <button onclick="mensaje('b3')">3</button><br>
+            <button onclick="mensaje('b4')">4</button>
+            <button onclick="mensaje('b5')">5</button>
+            <button onclick="mensaje('b6')">6</button><br>
+            <button onclick="mensaje('b7')">7</button>
+        </div>
+        <div class="Bright">
+            <button onclick="mensaje('b8')">8</button>
+            <button onclick="mensaje('b9')">9</button>
+            <button onclick="mensaje('b10')">10</button><br>
+            <button onclick="mensaje('b11')">11</button>
+            <button onclick="mensaje('b12')">12</button>
+            <button onclick="mensaje('b13')">13</button>
+        </div>
+    </div>
+    <script src="../js/Mensajes.js"></script>
+</body>
+</html>

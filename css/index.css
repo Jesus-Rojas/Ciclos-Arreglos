@@ -1,0 +1,101 @@
+.imagen{
+    width: 350px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.unidimensional{
+    margin-top: 70px;
+}
+.ciclo-background{
+    background-image: url(../img/ciclo.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 150%;
+}
+.unidimensional-background{
+    background-image: url(../img/unidimensional.png);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    background-size: 560px;
+}
+.bidimensional-background{
+    background-image: url(../img/bidimensional.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% -140%;
+    background-size: 600px;
+}
+.problema p{
+    padding: 0.8em; 
+}
+.atras{
+    width: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+button{
+    border-radius: 22px;
+    border-color: red;
+    width: 60px;
+    height: 40px;
+    font-size: 22px;
+    background-color: rgb(58, 0, 105);
+    color: white;
+    margin: 10px;
+}
+.left{
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 180px;
+    width: 600px;
+}
+.right{
+    padding-top: 60px;
+    padding-left: 470px;
+    padding-right: 0px;
+    width: 600px;
+}
+.Uleft{
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 180px;
+    width: 600px;
+}
+.Uright{
+    padding-top: 100px;
+    padding-left: 470px;
+    padding-right: 0px;
+    width: 600px;
+}
+.Bleft{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 180px;
+    width: 600px;
+}
+.Bright{
+    padding-top: 100px;
+    padding-left: 470px;
+    padding-right: 0px;
+    width: 600px;
+}
+.mensaje{
+    display: none;
+    align-content: center;
+    background-color: aqua;
+    width: 60%;
+    height: 75%;
+    border-radius: 22px;
+    position: absolute;
+    left: 19.5%;
+}
+.cerrar{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+.problema{
+    background-color: rebeccapurple;
+    height: 380px;
+}
